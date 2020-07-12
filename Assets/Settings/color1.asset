@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e95afa4a52379704e99558984ec2b11d, type: 3}
+  m_Name: color1
+  m_EditorClassIdentifier: 
+  planetMaterial: {fileID: 2100000, guid: aaede3ec17d7a6e41914065882db1540, type: 2}
+  biomeColorSettings:
+    biomes:
+    - gradient:
+        serializedVersion: 2
+        key0: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+        key1: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+        key2: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0}
+        key3: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+        key4: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 0}
+        key5: {r: 0.6508324, g: 0.6508324, b: 0.6508324, a: 0}
+        key6: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 5590
+        ctime2: 21781
+        ctime3: 28720
+        ctime4: 42791
+        ctime5: 53970
+        ctime6: 65535
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 7
+        m_NumAlphaKeys: 2
+      tint: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 0}
+      startHeight: 0
+      tintPercent: 0
+    noise:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 1
+        persistance: 0.5
+        baseRoughness: 1
+        roughness: 1
+        strength: 1
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+      ridgidNoiseSettings:
+        numLayers: 1
+        persistance: 0.5
+        baseRoughness: 1
+        roughness: 1
+        strength: 1
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+    noiseOffset: 0
+    noiseStrength: 0
+    blendAmount: 0

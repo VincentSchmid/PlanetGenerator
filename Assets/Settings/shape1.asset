@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 652520b4695ccde4c9c22ef3b1324732, type: 3}
+  m_Name: shape1
+  m_EditorClassIdentifier: 
+  planetRadius: 1.42
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 3
+        persistance: 1.58
+        baseRoughness: 0.3
+        roughness: 1.83
+        strength: 0.02
+        center: {x: 0, y: 0, z: 0}
+        minValue: 2.47
+      ridgidNoiseSettings:
+        numLayers: 0
+        persistance: 0
+        baseRoughness: 0
+        roughness: 0
+        strength: 0
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 3
+        persistance: 1.14
+        baseRoughness: -0.02
+        roughness: 7.62
+        strength: -0.11
+        center: {x: 0, y: 0, z: 0}
+        minValue: 2.15
+      ridgidNoiseSettings:
+        numLayers: 3
+        persistance: 0.52
+        baseRoughness: 0.83
+        roughness: 0.9
+        strength: 0.54
+        center: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 1.02
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 3
+        persistance: 1.22
+        baseRoughness: -0.02
+        roughness: 14.78
+        strength: -0.04
+        center: {x: -0.61, y: 2.91, z: -1.78}
+        minValue: 2.15
+      ridgidNoiseSettings:
+        numLayers: 3
+        persistance: 0.52
+        baseRoughness: 0.83
+        roughness: 1.29
+        strength: 0.54
+        center: {x: 0.67, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 1.02
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        numLayers: 4
+        persistance: 0.95
+        baseRoughness: 1.66
+        roughness: 0.9
+        strength: -0.02
+        center: {x: -0.16, y: 3.45, z: -1.23}
+        minValue: 2.4
+      ridgidNoiseSettings:
+        numLayers: 3
+        persistance: 0.52
+        baseRoughness: 0.83
+        roughness: 1.29
+        strength: 0.54
+        center: {x: 0.67, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 1.02
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        numLayers: 4
+        persistance: 0.95
+        baseRoughness: 1.66
+        roughness: 0.9
+        strength: -0.04
+        center: {x: -0.16, y: 3.45, z: -1.23}
+        minValue: 2.4
+      ridgidNoiseSettings:
+        numLayers: 5
+        persistance: 0.22
+        baseRoughness: 1.8
+        roughness: 5.53
+        strength: 0.02
+        center: {x: 0.67, y: 0, z: 0}
+        minValue: 0.75
+        weightMultiplier: 3.65
