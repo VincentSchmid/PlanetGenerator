@@ -1,13 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-
+﻿using UnityEngine;
 
 
 public class Planet : MonoBehaviour
 {
-
     Shader USED_SHADER;
 
     [Range(2, 256)]

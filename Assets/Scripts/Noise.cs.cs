@@ -26,6 +26,8 @@ Some changes by Sebastian Lague for use in a tutorial series.
 */
 
 using System;
+
+
 public class Noise
 {
     #region Values

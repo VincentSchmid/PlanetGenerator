@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 using UnityEditor;
+
 
 [CustomEditor(typeof(Planet))]
 public class PlanetEditor : Editor
